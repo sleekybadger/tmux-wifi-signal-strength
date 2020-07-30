@@ -1,0 +1,47 @@
+wifi_signal_strength_high_msg_option="@wifi_signal_strength_high_msg"
+wifi_signal_strength_high_msg_default="\#{rate} Mb/s"
+
+wifi_signal_strength_medium_msg_option="@wifi_signal_strength_medium_msg"
+wifi_signal_strength_medium_msg_default="\#{rate} Mb/s"
+
+wifi_signal_strength_low_msg_option="@wifi_signal_strength_low_msg"
+wifi_signal_strength_low_msg_default="\#{rate} Mb/s"
+
+wifi_signal_strength_off_msg_option="@wifi_signal_strength_off_msg"
+wifi_signal_strength_off_msg_default="Off"
+
+wifi_signal_strength_high_bg_option="@wifi_signal_strength_high_bg"
+wifi_signal_strength_high_bg_default="colour015"
+
+wifi_signal_strength_medium_bg_option="@wifi_signal_strength_medium_bg"
+wifi_signal_strength_medium_bg_default="colour015"
+
+wifi_signal_strength_low_bg_option="@wifi_signal_strength_low_bg"
+wifi_signal_strength_low_bg_default="colour015"
+
+wifi_signal_strength_off_bg_option="@wifi_signal_strength_off_bg"
+wifi_signal_strength_off_bg_default="colour015"
+
+wifi_signal_strength_high_fg_option="@wifi_signal_strength_high_fg"
+wifi_signal_strength_high_fg_default="colour034"
+
+wifi_signal_strength_medium_fg_option="@wifi_signal_strength_medium_fg"
+wifi_signal_strength_medium_fg_default="colour202"
+
+wifi_signal_strength_low_fg_option="@wifi_signal_strength_low_fg"
+wifi_signal_strength_low_fg_default="colour196"
+
+wifi_signal_strength_off_fg_option="@wifi_signal_strength_off_fg"
+wifi_signal_strength_off_fg_default="colour000"
+
+wifi_signal_strength_high_icon_option="@wifi_signal_strength_high_icon"
+wifi_signal_strength_high_icon_default="█"
+
+wifi_signal_strength_medium_icon_option="@wifi_signal_strength_medium_icon"
+wifi_signal_strength_medium_icon_default="▆"
+
+wifi_signal_strength_low_icon_option="@wifi_signal_strength_low_icon"
+wifi_signal_strength_low_icon_default="▄"
+
+wifi_signal_strength_off_icon_option="@wifi_signal_strength_off_icon"
+wifi_signal_strength_off_icon_default=""
