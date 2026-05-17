@@ -34,8 +34,14 @@ get_tx_rate_from_airport() {
   fi
 }
 
+get_tx_rate_from_nmcli() {
+  echo $(nmcli -f IN-USE,RATE dev wifi | awk '$1 == "*" {print $2; exit} END {if (NR==0 || $1 != "*") print 0}')
+}
+
 get_tx_rate() {
   if is_osx; then
     get_tx_rate_from_airport
+  else
+    get_tx_rate_from_nmcli
   fi
 }
